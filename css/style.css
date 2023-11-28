@@ -1,0 +1,304 @@
+body {
+    background-color:  rgba(233, 233, 216, 0.681);
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho{
+    display: flex;
+    background-color: rgb(161, 199, 245);
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    /*box-shadow: 5px 5px 10px #888888;*/
+    font-family: Verdana, sans-serif;
+
+}
+
+nav a{
+    margin-left: 110px;
+    position: relative;
+    right: 100px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 8px;
+}
+nav a:hover{
+    box-shadow: 5px 5px 10px rgb(138, 134, 134);
+    transition: all 0.6s;
+    
+}
+
+.logo{
+    position: absolute;
+    height: 20%;
+   margin-top: 4%;
+    left: 50px;
+    border-radius: 50%;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+
+.home{
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.home a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    right: 70px;
+    top: 50px;
+}
+/* css da pagina "cadastro de animais"*/
+.pa{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pa input{
+    border-radius: 50px;
+    height: 20px;
+    width: 200px;
+}
+
+.ca{
+    display: flex;
+    justify-content: center;
+}
+
+.tituloctro{
+    margin-top:30px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
+
+.quadrodectro{
+    width: 300px;
+    height: 500px;
+    border: solid black 1px;
+    font-family: Verdana, sans-serif;
+
+}
+
+.quadro{
+    display: flex;
+    justify-content: center;
+}
+
+.quadrodectro{
+   padding-left: 10px;
+}
+
+.quadrodectro input{
+    width: 280px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.imghome img{
+    height: 23px;
+    width: 30px;
+    position: absolute;
+    top: 46px;
+    left: 50px;
+ }
+
+ /*css da página login html*/
+
+ .divsup{
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 320px;
+ }
+
+ .cadastrocli{
+    width: 350px;
+    height: 400px;
+    margin-top: -0px;
+    margin-left: 290px;
+    
+ }
+ .cadastrocli p{
+    font-family: Verdana, sans-serif;
+ }
+
+.cadastrocli input{
+    width: 280px;
+    height: 25px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.botãoentrar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 35px;
+   width: 285px;
+   margin-left:px;
+   margin-top: 40px;
+   border-radius: 10px;
+   border: solid 1px black;
+   background-color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-family: Verdana, sans-serif;
+}
+
+a .botãoentrar{
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imagemdireita{
+    position:absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #dcd9d9;
+    left: 780px;
+    bottom: 77px;
+    background-image: url("imagem_login.jpg");
+    background-size: cover;
+    background-position: center;   
+}
+
+/*css da página cadastro de cliente */
+
+.ptext{
+    height: 250px;
+    width: 400px;
+    /*background-color: rgb(187, 187, 187);*/
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Verdana, sans-serif;
+}
+
+.dados{
+    width: 300px;
+    height: 570px;
+    /*background-color: #ffffff;*/
+    position: absolute;
+    left: 650px;
+    top: 120px;
+    border: solid 1px;
+    font-family: Verdana, sans-serif;
+}
+
+.endress{
+    margin-left: 44px;
+    margin-bottom: 20px;
+    font-family: Verdana, sans-serif;
+    
+}
+ .dp{
+    margin-left: 90px;
+ }
+.endress input{
+    height: 20px;
+    width: 200px;;
+}
+.endress p{
+    margin-bottom: 0%;
+}
+
+a.enter{
+    position:relative;
+    left: 290px;
+    bottom: 150px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 130px;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+
+a.enter:hover{
+    background-color: rgb(37, 201, 146);
+}
+
+a.botãocriar{
+    text-decoration: none;
+    color:black;
+    position:relative;
+    top:20px;
+    left: 75px;
+    border: solid 1px;
+    padding: 10px 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+a.crie_conta{
+    position:relative;
+    left: 20px;
+    bottom: 85px;
+    text-decoration: none;
+    
+}
+
+/*css da pagina_inicial*/
+
+.imagemcentral{
+    position: absolute;
+    left: 450px;
+    top: 150px;
+}
+
+.fundoinicio{
+    background-color:rgba(233, 233, 216, 0.681);
+    
+}
+
+/*css da pagina pesqusaanimal */
+
+.sub{
+    height: 500px;
+    width: 1000px;
+    /*background-color: #dcd9d9;*/
+    position: absolute;
+    left: 240px;
+    top: 120px;
+    text-align: center;
+    border-radius: 10px;
+    font-family:  verdana ,sans-serif;
+    
+    
+}
+
+
+
+.results{
+    height: 100px;
+    width: 800px;
+    background-color: rgb(184, 184, 184);
+    margin-top: 30px;
+    position: relative;
+    left: 100px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

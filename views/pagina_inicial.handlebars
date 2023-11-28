@@ -1,0 +1,482 @@
+<style>
+    body {
+                background: linear-gradient(to right, rgba(142, 45, 226, 0.5), rgba(74, 0, 224, 0.5));
+
+        margin: 0;
+        padding: 0;
+    }
+
+    .cabeçalho {
+        display: flex;
+        background-color: rgb(161, 199, 245);
+        height: 35px;
+        justify-content: center;
+        align-items: center;
+        /*box-shadow: 5px 5px 10px #888888;*/
+        font-family: Verdana, sans-serif;
+
+    }
+
+    nav a {
+        margin-left: 110px;
+        position: relative;
+        right: 100px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        padding: 8px;
+    }
+
+    nav a:hover {
+        box-shadow: 5px 5px 10px rgb(138, 134, 134);
+        transition: all 0.6s;
+    }
+
+    .logo {
+        position: absolute;
+        height: 20%;
+        margin-top: 4%;
+        left: 50px;
+        border-radius: 50%;
+    }
+
+    .logo img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .home {
+        margin-left: 80px;
+        margin-top: 15px;
+    }
+
+    .home a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .user {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: aqua;
+        position: absolute;
+        right: 70px;
+        top: 50px;
+    }
+
+    /* css da pagina "cadastro de animais"*/
+    .pa {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .pa input {
+        border-radius: 50px;
+        height: 20px;
+        width: 200px;
+    }
+
+    .ca {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tituloctro {
+        margin-top: 30px;
+        font-weight: bold;
+        font-family: Verdana, sans-serif;
+    }
+
+    .quadrodectro {
+        width: 300px;
+        height: 500px;
+        border: solid black 1px;
+        font-family: Verdana, sans-serif;
+
+    }
+
+    .quadro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quadrodectro {
+        padding-left: 10px;
+    }
+
+    .quadrodectro input {
+        width: 280px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .imghome img {
+        height: 23px;
+        width: 30px;
+        position: absolute;
+        top: 46px;
+        left: 50px;
+    }
+
+    /*css da página login html*/
+
+    .divsup {
+        width: 230px;
+        margin-top: 60px;
+        margin-left: 320px;
+    }
+
+    .cadastrocli {
+        width: 350px;
+        height: 400px;
+        margin-top: -0px;
+        margin-left: 290px;
+
+    }
+
+    .card p {
+        font-family: Verdana, sans-serif;
+    }
+
+    .card input {
+        width: 280px;
+        height: 25px;
+        margin-bottom: 40px;
+        border-radius: 10px;
+    }
+
+    .botãoentrar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        width: 285px;
+        margin-left: px;
+        margin-top: 40px;
+        border-radius: 10px;
+        border: solid 1px black;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: Verdana, sans-serif;
+    }
+
+    a .botãoentrar {
+        text-decoration: none;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .imagemdireita {
+        position: absolute;
+        height: 500px;
+        width: 500px;
+        background-color: #dcd9d9;
+        left: 780px;
+        bottom: 77px;
+        background-image: url("imagem_login.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*css da página cadastro de cliente */
+
+    .ptext {
+        height: 250px;
+        width: 400px;
+        /*background-color: rgb(187, 187, 187);*/
+        margin-left: 100px;
+        margin-top: 50px;
+        font-family: Verdana, sans-serif;
+    }
+
+    .dados {
+        width: 300px;
+        height: 570px;
+        /*background-color: #ffffff;*/
+        position: absolute;
+        left: 650px;
+        top: 120px;
+        border: solid 1px;
+        font-family: Verdana, sans-serif;
+    }
+
+    .endress {
+        margin-left: 44px;
+        margin-bottom: 20px;
+        font-family: Verdana, sans-serif;
+
+    }
+
+    .dp {
+        margin-left: 90px;
+    }
+
+    .endress input {
+        height: 20px;
+        width: 200px;
+        ;
+    }
+
+    .endress p {
+        margin-bottom: 0%;
+    }
+
+    a.enter {
+        position: relative;
+        left: 290px;
+        bottom: 150px;
+        background-color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 10px 130px;
+        color: black;
+        font-family: Verdana, sans-serif;
+    }
+
+    a.enter:hover {
+        background-color: rgb(37, 201, 146);
+    }
+
+    a.botãocriar {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        top: 20px;
+        left: 75px;
+        border: solid 1px;
+        padding: 10px 40px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    a.crie_conta {
+        position: relative;
+        left: 20px;
+        bottom: 85px;
+        text-decoration: none;
+
+    }
+
+    /*css da pagina_inicial*/
+
+    .imagemcentral {
+        position: absolute;
+        left: 450px;
+        top: 150px;
+    }
+
+    .fundoinicio {
+        background-color: rgba(233, 233, 216, 0.681);
+    }
+
+    /*css da pagina pesqusaanimal */
+
+    .sub {
+        height: 500px;
+        width: 1000px;
+        /*background-color: #dcd9d9;*/
+        position: absolute;
+        left: 240px;
+        top: 120px;
+        text-align: center;
+        border-radius: 10px;
+        font-family: verdana, sans-serif;
+    }
+
+    .results {
+        height: 100px;
+        width: 800px;
+        background-color: rgb(184, 184, 184);
+        margin-top: 30px;
+        position: relative;
+        left: 100px;
+        border-radius: 10px;
+    }
+
+    form {
+        display: none;
+    }
+
+    table {
+        display: none;
+    }
+
+    #busca {
+        display: none;
+        top: 200px;
+        left: 50px;
+    }
+
+    .formcad {
+        width: 300px;
+        right: 200px;
+
+    }
+
+    .formbusca {
+        display: none;
+    }
+
+    .botoes {
+        background-color: dodgerblue;
+        border-radius: 5%;
+        width: 100px;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        left:100px ;
+        margin-left: 5%;
+        display: flex;
+    justify-content:; 
+    }
+    .conjuntoBtn{
+     position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)}
+    .fundoCadAnimal{
+        background-color: dimgray;
+        width: 400px;
+        top: 10px;
+        left: 10px;
+        
+    
+    }
+
+</style>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body class="fundoinicio">
+
+    <div class="cabeçalho">
+        <img class="logo" src="/img/logo.png">
+        <div class="logo"></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Fale conosco</a>
+            <a href="#">Notícias</a>
+            <a href="#">Nossa Equipe</a>
+        </nav>
+    </div>
+<a href="/"><button class="btn btn-primary">Logout</button></a>
+<br>
+<br>
+<br>
+
+    <!-- Formulário para cadastro de animais-->
+ <div class="conjuntoBtn">
+        <button onclick="openCadAnimal()" class="botoes">Cadastrar Animal</button>
+        <button onclick="openMeusAnimais()" class="botoes">Meus Animais</button>
+        <button onclick="openBuscarParceiros()" class="botoes">Buscar parceiros</button>
+    </div>
+<div class="fundoCadAnimal">
+    <form action="/addAnimal" method="post" name="CadAnimal" id="CadAnimal" class="formcad">
+        <fieldset>
+            <div class="fundoCadAnimal">
+            <legend>Cadastro do cliente</legend>
+            <div class="mb-3">
+                <label for="" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="inputname" name="nome" aria-describedby="emailHelp"
+                    placeholder="digite o nome do animal...">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Espécie</label>
+                <input type="text" class="form-control" id="inputespecie" name="especie"
+                    placeholder="digite a esopécie...">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Raça</label>
+                <input type="text" class="form-control" id="imnputraca" name="raca" placeholder="digite a raça...">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Sexo</label>
+                <input type="text" class="form-control" id="imnputsexo" name="sexo" placeholder="digite o sexo...">
+            </div>
+           
+            <button id="btnCad" type="submit" class="btn btn-primary">cadastrar</button>
+            </div>
+        </fieldset>
+
+    </form>
+
+
+
+                <form action="/" method="post" name="buscaPar" id="busca" class="formbusca">
+                <label for="especie">Escolha a Espécie:</label>
+                <select id="especie" name="especie">
+                    <option value="">Todas</option>
+
+                </select>
+
+                <label for="raca">Escolha a raça:</label>
+                <select id="raca" name="raca">
+                    <option value="">Todas</option>
+                </select>
+
+                <label for="sexo">Escolha o sexo:</label>
+                <select id="sexo" name="sexo">
+                    <option value="">Todos</option>
+
+                </select>
+
+
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+
+            <!-- Código js para acessar o formulário de cadastro de animais-->
+            <script>
+                function openCadAnimal() {
+                    var form = document.getElementById("CadAnimal");
+                    if (form.style.display === "none" || form.style.display === "") {
+                        form.style.display = "block";
+                    } else {
+                        form.style.display = "none";
+                    }
+
+                }
+                function openMeusAnimais() {
+                    
+                      window.location.href = '/cad';
+                }
+
+                function openBuscarParceiros() {
+                    // Obtém o elemento do formulário pelo ID
+                    var form = document.getElementById("busca");
+                    if (form.style.display === "none" || form.style.display === "") {
+                        form.style.display = "block";
+                    } else {
+                        form.style.display = "none";
+                    }
+                   
+                }    
+
+              /*  function mostraTabela() {
+
+                    arrayDeAnimais.forEach(function (arrayDeAnimais){
+                    
+
+                    $("#mostra tbody").append(`<tr>
+                        <td>${arrayDeAnimais.nome }<td>
+                        <td>${arrayDeAnimais.especie}<td>
+                        <td>${arrayDeAnimais.raca}<td>
+                        <td>${arrayDeAnimais.sexo}<td>
+                        <td>${arrayDeAnimais.idade}<td>
+                        <td> <button type="submit" class="btn btn-primary">editar</button></td>
+                        <td> <button type="submit" class="btn btn-primary">excluir</button></td>
+
+                    </tr>`)}
+                    }*/
+
+
+            </script>
