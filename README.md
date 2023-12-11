@@ -36,7 +36,7 @@ Acessar pelo navegador o endereço: http://localhost:2000/
 Executar o arquivo index.js:
 node index.js
 
-Acessar pelo navegador o endereço http: //localhost:2000/
+Acessar pelo navegador o endereço http: http://localhost:2000/
 
 
 
