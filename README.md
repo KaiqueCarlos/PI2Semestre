@@ -1,6 +1,4 @@
-# PiSegundoSemestre
-
-## Sistema de Cadastro de Animais
+# PiSegundoSemestre - Sistema de Cadastro de Animais
 
 ## Sobre o Projeto
 O projeto foi desenvolvido com o intuído de aproximar donos de pets que tenham o interesse em cruzar seus animais.
