@@ -33,10 +33,10 @@ Acessar pelo navegador o endereço: http://localhost:2000/
  - Ter instalado na máquina o banco de dados MySql;
  - Editar o arquivo db.js, iserindo as informação do banco de dados instalado na máquina (nome, endereço e senha).
 
-Executar o arquivo index.js
+Executar o arquivo index.js:
 node index.js
 
-Acessar pelo navegador o endereço http://localhost:2000/
+Acessar pelo navegador o endereço http: //localhost:2000/
 
 
 
