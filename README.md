@@ -38,7 +38,7 @@ node index.js
 
 Acessar pelo navegador o endereço http: http://localhost:2000/
 
-# Vídeo demostrativo do projeto
+# Vídeo demonstrativo do projeto
 
 https://www.youtube.com/watch?v=uVhzUaCfgwE
 
